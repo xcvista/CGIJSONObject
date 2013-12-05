@@ -38,6 +38,7 @@
 		1D2FAFB9185043B400374857 /* MSBooster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2FAFB2185043A200374857 /* MSBooster.framework */; };
 		1D2FAFBA185043BB00374857 /* MSBooster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2FAFB4185043A200374857 /* MSBooster.framework */; };
 		1D2FAFBC1850442C00374857 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2FAFBB1850442C00374857 /* Foundation.framework */; };
+		1D2FAFE2185047ED00374857 /* MSBooster.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1D2FAFB2185043A200374857 /* MSBooster.framework */; };
 		1D417EBC17C4A86100550641 /* NSDate+CGIJSONSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D417EBB17C4A86100550641 /* NSDate+CGIJSONSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D417EBD17C4A86100550641 /* NSDate+CGIJSONSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D417EBB17C4A86100550641 /* NSDate+CGIJSONSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D417EBF17C4AC5600550641 /* CGINSDateDecodingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D417EBE17C4AC5600550641 /* CGINSDateDecodingTest.m */; };
@@ -123,6 +124,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				1D2FAFE2185047ED00374857 /* MSBooster.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
