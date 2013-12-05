@@ -39,6 +39,9 @@
 		1D2FAFBA185043BB00374857 /* MSBooster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2FAFB4185043A200374857 /* MSBooster.framework */; };
 		1D2FAFBC1850442C00374857 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2FAFBB1850442C00374857 /* Foundation.framework */; };
 		1D2FAFE2185047ED00374857 /* MSBooster.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1D2FAFB2185043A200374857 /* MSBooster.framework */; };
+		1D2FAFE818504A8400374857 /* framework.make in Resources */ = {isa = PBXBuildFile; fileRef = 1D2FAFE518504A8400374857 /* framework.make */; };
+		1D2FAFE918504A8400374857 /* GNUstep.make in Resources */ = {isa = PBXBuildFile; fileRef = 1D2FAFE618504A8400374857 /* GNUstep.make */; };
+		1D2FAFEA18504A8400374857 /* tool.make in Resources */ = {isa = PBXBuildFile; fileRef = 1D2FAFE718504A8400374857 /* tool.make */; };
 		1D417EBC17C4A86100550641 /* NSDate+CGIJSONSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D417EBB17C4A86100550641 /* NSDate+CGIJSONSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D417EBD17C4A86100550641 /* NSDate+CGIJSONSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D417EBB17C4A86100550641 /* NSDate+CGIJSONSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D417EBF17C4AC5600550641 /* CGINSDateDecodingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D417EBE17C4AC5600550641 /* CGINSDateDecodingTest.m */; };
@@ -168,6 +171,9 @@
 		1D2FAFAA185043A200374857 /* MSBooster.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MSBooster.xcodeproj; path = MSBooster/MSBooster.xcodeproj; sourceTree = "<group>"; };
 		1D2FAFBB1850442C00374857 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1D2FAFE11850471A00374857 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		1D2FAFE518504A8400374857 /* framework.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = framework.make; sourceTree = "<group>"; };
+		1D2FAFE618504A8400374857 /* GNUstep.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNUstep.make; sourceTree = "<group>"; };
+		1D2FAFE718504A8400374857 /* tool.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tool.make; sourceTree = "<group>"; };
 		1D417EBB17C4A86100550641 /* NSDate+CGIJSONSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CGIJSONSerializable.h"; sourceTree = "<group>"; };
 		1D417EBE17C4AC5600550641 /* CGINSDateDecodingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGINSDateDecodingTest.m; sourceTree = "<group>"; };
 		1D4BF27C17AA0BBF005080A2 /* CGIJSONObject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CGIJSONObject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -269,11 +275,22 @@
 			name = "System Frameworks";
 			sourceTree = "<group>";
 		};
+		1D2FAFE418504A6E00374857 /* Build Script */ = {
+			isa = PBXGroup;
+			children = (
+				1D13DA4717BCB49D008507EC /* GNUmakefile */,
+				1D2FAFE518504A8400374857 /* framework.make */,
+				1D2FAFE618504A8400374857 /* GNUstep.make */,
+				1D2FAFE718504A8400374857 /* tool.make */,
+			);
+			name = "Build Script";
+			sourceTree = "<group>";
+		};
 		1D4BF27217AA0BBF005080A2 = {
 			isa = PBXGroup;
 			children = (
 				1D2FAFE11850471A00374857 /* .travis.yml */,
-				1D13DA4717BCB49D008507EC /* GNUmakefile */,
+				1D2FAFE418504A6E00374857 /* Build Script */,
 				1D4BF28517AA0BBF005080A2 /* CGIJSONObject */,
 				1D13DA6017BCBE7C008507EC /* CGIJSONObject Tests */,
 				1D4BF27E17AA0BBF005080A2 /* Frameworks */,
@@ -527,7 +544,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2FAFE818504A8400374857 /* framework.make in Resources */,
 				1D4BF28A17AA0BBF005080A2 /* InfoPlist.strings in Resources */,
+				1D2FAFE918504A8400374857 /* GNUstep.make in Resources */,
+				1D2FAFEA18504A8400374857 /* tool.make in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
