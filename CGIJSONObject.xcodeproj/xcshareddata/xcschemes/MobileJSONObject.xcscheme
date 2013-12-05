@@ -28,6 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1D2FAFC11850454000374857"
+               BuildableName = "MobileJSONObject Tests.octest"
+               BlueprintName = "MobileJSONObject Tests"
+               ReferencedContainer = "container:CGIJSONObject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

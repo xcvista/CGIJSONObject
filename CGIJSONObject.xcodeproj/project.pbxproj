@@ -165,6 +165,7 @@
 		1D13DAB517BD2A8A008507EC /* CGINSObjectKeySubstitution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGINSObjectKeySubstitution.m; sourceTree = "<group>"; };
 		1D2FAFAA185043A200374857 /* MSBooster.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MSBooster.xcodeproj; path = MSBooster/MSBooster.xcodeproj; sourceTree = "<group>"; };
 		1D2FAFBB1850442C00374857 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1D2FAFE11850471A00374857 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		1D417EBB17C4A86100550641 /* NSDate+CGIJSONSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CGIJSONSerializable.h"; sourceTree = "<group>"; };
 		1D417EBE17C4AC5600550641 /* CGINSDateDecodingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGINSDateDecodingTest.m; sourceTree = "<group>"; };
 		1D4BF27C17AA0BBF005080A2 /* CGIJSONObject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CGIJSONObject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -255,9 +256,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1D2FAFBD1850451900374857 /* System Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D2FAFBB1850442C00374857 /* Foundation.framework */,
+				1D4BF27F17AA0BBF005080A2 /* Cocoa.framework */,
+				1D13DA5E17BCBE7C008507EC /* SenTestingKit.framework */,
+				1D4BF28117AA0BBF005080A2 /* Other Frameworks */,
+			);
+			name = "System Frameworks";
+			sourceTree = "<group>";
+		};
 		1D4BF27217AA0BBF005080A2 = {
 			isa = PBXGroup;
 			children = (
+				1D2FAFE11850471A00374857 /* .travis.yml */,
 				1D13DA4717BCB49D008507EC /* GNUmakefile */,
 				1D4BF28517AA0BBF005080A2 /* CGIJSONObject */,
 				1D13DA6017BCBE7C008507EC /* CGIJSONObject Tests */,
@@ -279,11 +292,8 @@
 		1D4BF27E17AA0BBF005080A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1D2FAFBB1850442C00374857 /* Foundation.framework */,
 				1D2FAFAA185043A200374857 /* MSBooster.xcodeproj */,
-				1D4BF27F17AA0BBF005080A2 /* Cocoa.framework */,
-				1D13DA5E17BCBE7C008507EC /* SenTestingKit.framework */,
-				1D4BF28117AA0BBF005080A2 /* Other Frameworks */,
+				1D2FAFBD1850451900374857 /* System Frameworks */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
