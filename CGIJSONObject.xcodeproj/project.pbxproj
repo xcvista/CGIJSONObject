@@ -768,10 +768,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 6;
 				DYLIB_CURRENT_VERSION = 6;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/technix/Developer/Library/Derived\\ Data/CGIKit-bderowzgsjdnhqcmhbosjozycgjq/Build/Products/Debug",
-				);
 				FRAMEWORK_VERSION = F;
 				INFOPLIST_FILE = "CGIJSONObject/CGIJSONObject-Info.plist";
 				INSTALL_PATH = "@rpath";
@@ -787,10 +783,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 6;
 				DYLIB_CURRENT_VERSION = 6;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/technix/Developer/Library/Derived\\ Data/CGIKit-bderowzgsjdnhqcmhbosjozycgjq/Build/Products/Debug",
-				);
 				FRAMEWORK_VERSION = F;
 				INFOPLIST_FILE = "CGIJSONObject/CGIJSONObject-Info.plist";
 				INSTALL_PATH = "@rpath";
